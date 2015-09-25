@@ -1,0 +1,34 @@
+    body{
+    margin: 0 0 0 0;
+}
+#red {
+    background-color: red;
+    width: 100%;
+    position: relative;
+    height: 70px;
+}
+
+.box{
+    position: relative;
+    width: 33.333%;
+    height: 380px;
+    float: left;
+}
+
+#yellow {
+    background:yellow;
+}
+
+#green{
+    background: green;
+}
+#blue{
+    background: blue;
+}
+
+#purple{
+    background-color: purple;
+    width: 100%;
+    position: relative;
+    height: 70px;
+}
