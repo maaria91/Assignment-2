@@ -1,18 +1,28 @@
-    body{
-    margin: 0 0 0 0;
+    html,head,body,div{
+    margin: 0;
+        padding: 0;
 }
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
 #red {
     background-color: red;
     width: 100%;
     position: relative;
-    height: 70px;
+    height: 100px;
 }
-
-.box{
+.parent{
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    width: 100%;
+}
+#yellow,#green,#blue{
     position: relative;
     width: 33.333%;
-    height: 380px;
     float: left;
+    height: 100%;
 }
 
 #yellow {
@@ -29,6 +39,7 @@
 #purple{
     background-color: purple;
     width: 100%;
-    position: relative;
-    height: 70px;
+    position: absolute;
+    height: 100px;
+    bottom: 0;
 }
